@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset= "UTF-8">
+<link rel="stylesheet" href="3stiles.css">
+<title>8 Задание</title>
+<link rel="stylesheet" href="8stiles.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="8script.js" defer></script>
+</head>
+<body>  
+<button id="butt" ><h3>Форма</h3></button>
+<div id="popUp" style="display:none" >
+    <div id="content" >
+        <form name="f" if="f"  class="text-center p-2 m-2"> 
+            <label>Имя: <input name="name" value="" /></label>
+            <label>e-mail: <input  name="mail" value="" type="email" /></label>
+            <label><input type="checkbox" name="yes" />Согласен(на) с политикой обработки персональных данных </label>
+            <input name="send" type="submit" value="Отправить" />
+        </form>
+		<button id="back" ><h4>Назад</h4></button>
+        <div id="emailError" style="display:none ">Недопустимое значение e-mail</div>
+        <div id="noYes" style="display:none">Нет согласия на обрабтку данных</div>
+        <div id="nameError" style="display:none">Недопустимое значение Name</div>
+    </div>
+</div>
+	</body>
+</html>
